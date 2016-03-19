@@ -1,0 +1,11 @@
+body {
+    background-color: #26a0d8;
+    font-family: sans-serif;
+}
+
+div id="new" {
+    background-color: burlywood;
+    font-variant: normal;
+    position: absolute;
+    align-content: center;
+}

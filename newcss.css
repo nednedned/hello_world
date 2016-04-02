@@ -4,8 +4,9 @@ Mobile - is equal to or less than 767px.
 
 set the font size of the heading and section title to be 75% larger and 25% larger (respectively) than the font size of the dummy text.
 */
-@media (min-width: 992px) {
 
+
+@media (min-width: 992px) {
 
     h1 {
     text-align: center;
@@ -13,9 +14,7 @@ set the font size of the heading and section title to be 75% larger and 25% larg
     position: relative;
     font-family: sans-serif;
     font-size: 1.75em;
-    background-color: aqua;  /*remove*/
-
-}
+        }
 /*wide boxes blocks*/
 div.menu {
     float: left;
@@ -82,3 +81,174 @@ p {
 }
     } /*end of media-992*/
 
+
+@media (min-width: 768px) and (max-width: 991px) {
+      h1 {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 1.75em;
+        }
+
+    div.menu {
+    float: left;
+    clear: right;
+    box-sizing: border-box;
+    border: 3px solid;
+    border-color: black;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+    width: 32%;
+    background-color: #c0c3c0;
+
+}
+
+.menu > .button {
+    float: right;
+    clear: left;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 0px 20px 0px 20px;
+    box-sizing: content-box;
+    width: 33%;
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+/*buttons color top right!!!*/
+#menuLeft {
+   background-color: rosybrown;
+}
+#menuLeft:hover {
+    background-color: #8033a7;
+    cursor: pointer;
+}
+
+#menuCenter {
+    background-color: #ea4747;
+}
+#menuCenter:hover {
+    background-color: #8033a7;
+    cursor: pointer;
+}
+
+#menuRight {
+    background-color: bisque;
+    width: 15%;
+}
+#menuRight:hover {
+    background-color: #8033a7;
+    cursor: pointer;
+}
+/*fonts attahed to every of 3 boxes!*/
+#chicken {
+   font-family: 'Source Sans Pro', sans-serif;
+     width: 49%;
+
+    }
+#beef {
+   font-family: 'Slabo 27px', serif;
+    width: 49%;
+    float: right;
+
+}
+#sushi {
+   font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    clear: both;
+
+}
+p {
+    margin: 40px 10px 5px 10px;
+}
+    /*end of media  between 768px and 991px*/
+}
+
+
+@media (max-width: 767px) {
+        h1 {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 1.75em;
+
+    }
+
+
+    div.menu {
+    box-sizing: content-box;
+    border: 3px solid;
+    border-color: black;
+    padding: 0px;
+    margin: 20px 15px 15px 15px;
+
+    background-color: #c0c3c0;
+        }
+
+.menu > .button {
+    float: right;
+    clear: left;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 0px 20px 0px 20px;
+    box-sizing: content-box;
+    width: 33%;
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+/*buttons color top right!!!*/
+#menuLeft {
+   background-color: rosybrown;
+}
+#menuLeft:hover {
+    background-color: #8033a7;
+    cursor: pointer;
+}
+
+#menuCenter {
+    background-color: #ea4747;
+}
+#menuCenter:hover {
+    background-color: #8033a7;
+    cursor: pointer;
+}
+
+#menuRight {
+    background-color: bisque;
+
+}
+#menuRight:hover {
+    background-color: #8033a7;
+    cursor: pointer;
+}
+/*fonts attahed to every of 3 boxes!*/
+#chicken {
+   font-family: 'Source Sans Pro', sans-serif;
+     width: 100%;
+
+    }
+#beef {
+   font-family: 'Slabo 27px', serif;
+    width: 100%;
+
+}
+#sushi {
+   font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+
+}
+p {
+    margin: 40px 10px 5px 30px;
+}
+
+}
+
+/*end of media  below 767px*/
